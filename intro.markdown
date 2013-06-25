@@ -1,5 +1,8 @@
 title: Welcome
 author: Aleksandrs Zdancuks
+copyright: Copyright (c) 2013 Accenture
+footer:
+subfooter:
 
 
 Welcome
@@ -25,7 +28,7 @@ about:me
 * Email: me@copperred.net
 * Skype: phlebotomus
 * Height: 197 cm
-* Age: 32 and still counting...
+* Age: 32 <span>and still counting...</span>
 * Status: married with kids 
 
 
