@@ -12,7 +12,6 @@ Agenda
   * Controllers and routes
   * Rspec introduction
   * Introducing layout, embedding ruby
-  * 
 
 Training start
 ==============
@@ -96,4 +95,56 @@ Generate Rspec dependencies
 
 Plain old HTMLs
 ===============
+
+Located in `public/`
+
+Let's do some!
+
+
+Generating static controller
+============================
+
+    $ rails generate controller StaticPages home help --no-test-framework
+
+
+
+in case of emergency:
+
+    $ rails destroy controller StaticPages
+
+
+Routes
+======
+
+What's routes? Look at `config/routes.rb`
+
+
+Let's go TDD
+============
+
+    $ rails generate integration_test static_pages
+
+
+    $ vim spec/requests/static_pages_spec.rb
+
+
+
+Keywords
+========
+
+* describe
+* it
+* visit
+* page.should
+* have\_content
+* have\_selector
+
+
+DRY
+===
+
+`app/views/layouts/application.html.erb`
+
+<%= code 'application.html.erb' %>
+
 
