@@ -145,6 +145,6 @@ DRY
 
 `app/views/layouts/application.html.erb`
 
-<%= code 'application.html.erb' %>
+<%= code 'application.html.erb', :lang => 'erb', :engine => 'coderay' %>
 
 

@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
 gem 'slideshow'
-gem 'ultraviolet'
+gem 'coderay'
