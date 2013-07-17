@@ -400,18 +400,16 @@ div.initial_prompt { display: none; visibility: hidden }
 }
 
 .CodeRay {
-  background-color: #232323;
-  border: 1px solid black;
   font-family: 'Courier New', 'Terminal', monospace;
+  font-size: 17pt;
   color: #E6E0DB;
   padding: 3px 5px;
   overflow: auto;
   margin: 12px 0;
 }
-.CodeRay pre {
-  margin: 0px;
-  padding: 0px;
-}
+.CodeRay pre { margin: 0px; padding: 0px; }
+.CodeRay table { border-collapse: collapse; border-spacing: 0; }
+.CodeRay td { padding:0; }
 
 .CodeRay .keyword { color:#CB7832 } /* keyword */
 .CodeRay .tag { color:#E7BE69 } /* html tag */
