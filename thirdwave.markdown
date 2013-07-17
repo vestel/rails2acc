@@ -15,6 +15,16 @@ This presentation
     $ slideshow build -t slidy thirdwave.markdown
 
 
+Lanister
+========
+![Always pays his debts](images/lanister.png)
+
+
+Githubflow
+==========
+![Github Style](images/githubstyle.png)
+
+
 Sign in
 =======
 
